@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d7e5a502f102d49b4b9f4afb3d2c44, type: 3}
+  m_Name: SavedState
+  m_EditorClassIdentifier: 
+  PlayerInfoArray:
+  - Name: Player 1
+    ColorR: 0.8235294
+    ColorG: 0.09688581
+    ColorB: 0.09688581
+    ActionPoints: 6
+    MaxActionPoints: 52
+    Coordinates:
+      X: 5
+      Z: -12
+      MadeCoordinates: 1
+      HasCoordinates: 1
+  - Name: Player 2
+    ColorR: 0.17647058
+    ColorG: 0.7614606
+    ColorB: 1
+    ActionPoints: 11
+    MaxActionPoints: 50
+    Coordinates:
+      X: 13
+      Z: -17
+      MadeCoordinates: 1
+      HasCoordinates: 1
+  SystemElementInfoArray:
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: 0
+    IsHacked: 1
+    IsDestroyed: 0
+  - OwnerVirus: 0
+    IsHacked: 0
+    IsDestroyed: 1
+  - OwnerVirus: 0
+    IsHacked: 1
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  - OwnerVirus: -1
+    IsHacked: 0
+    IsDestroyed: 0
+  CurrentPlayer: 1
+  CurrentTurn: 3
+  MapSize: 10
+  TurnTime: 60
+  TurnCount: 10
+  RemainingTurnTime: 58
+  Seed: zpi
+  IsLoaded: 0

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250468aac1b58e246ac4cf5a43b78c86, type: 3}
+  m_Name: Occupation
+  m_EditorClassIdentifier: 
+  systemElementList: {fileID: 11400000, guid: 86810212c6b926a4ba9c5b8a34a1e37e, type: 2}
+  virus: {fileID: 11400000, guid: 74299e313f2819c4286bb1c3bc5dd193, type: 2}
+  mapGeneratedEvent: {fileID: 11400000, guid: 59d43ed6ba81b724b8b75b2d9966589d, type: 2}

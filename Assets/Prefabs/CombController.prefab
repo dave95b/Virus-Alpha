@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1205741561833024}
+  m_IsPrefabParent: 1
+--- !u!1 &1205741561833024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4142329916808480}
+  - component: {fileID: 114674205143435670}
+  - component: {fileID: 114098657623227732}
+  m_Layer: 0
+  m_Name: CombController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4142329916808480
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205741561833024}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114098657623227732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205741561833024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b726680ccf97da428c7ab5928f0dd2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentHexColor: {fileID: 11400000, guid: 86383d4e733d50a43aca63dc6fbfcc0d, type: 2}
+  GeneratorItems:
+  - Size: 7
+    CountPerMapModule: 2
+  - Size: 3
+    CountPerMapModule: 7
+  - Size: 1
+    CountPerMapModule: 18
+  OnSystemElementGenerated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: OnElementGenerated
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: SystemElementGeneratorEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114674205143435670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205741561833024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bac27feaa6d3247ab75b5ca0327cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onMapGeneratedEvent: {fileID: 11400000, guid: 59d43ed6ba81b724b8b75b2d9966589d,
+    type: 2}
+  gameConfiguration: {fileID: 11400000, guid: 67614ec39b709d04fbf3c9c3f4525e76, type: 2}
+  seed: zpi
+  MinHolesSize: 3
+  MaxHolesSize: 8
+  HolesPercentage: 0.2
+  BigElementModifier: 60
+  AvrageElementModifier: 15
+  SmallElementModifier: 7
+  hexComb: {fileID: 114177452769621786, guid: cd43e8da801f42a4697f3dee32d37622, type: 2}
+  hexTile: {fileID: 1887798587268294, guid: 9bed6df497c2e6e41945fdde205dc9d4, type: 2}
+  colorList: {fileID: 11400000, guid: 8ff29f5be1a7b6a409aa03c782280020, type: 2}

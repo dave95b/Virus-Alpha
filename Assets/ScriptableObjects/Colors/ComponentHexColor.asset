@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28659ec64ba124040ab7df43a22e2b4a, type: 3}
+  m_Name: ComponentHexColor
+  m_EditorClassIdentifier: 
+  value: {r: 0, g: 0, b: 0, a: 1}
+  keepPlaymodeChanges: 0
+  savedValue: {r: 0, g: 0, b: 0, a: 1}

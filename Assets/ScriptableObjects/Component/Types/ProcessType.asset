@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2c8b8610e460c46a3d07c9afdc53e4, type: 3}
+  m_Name: ProcessType
+  m_EditorClassIdentifier: 
+  systemElementType: 2
+  power: 1.25
+  name: Process
+  sprite: {fileID: 21300002, guid: ef6218d535bc4064b8476305814bbd11, type: 3}
+  destroyedSprite: {fileID: 21300000, guid: 74fbbe5477cc1b74287e809ff592ebc4, type: 3}
